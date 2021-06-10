@@ -24,40 +24,39 @@
             <div id="calculadora">
                 <div id="visor">
                     <div id="resultado">
-                        23
                     </div>
                 </div>
                 <div id="teclado">
 
                     <div id="parte-superior">
-                        <button class = "teclado-botao" type="button" onclick="clicou('1')"> C </button>
-                        <button class = "teclado-botao" type="button" onclick="clicou('1')"> CE </button>
+                        <button id = "" class = "teclado-botao" type="button" onclick="limpar()"> C </button>
+                        <button id = "" class = "teclado-botao" type="button" onclick="limpar()"> CE </button>
                     </div>
 
                     <div id="parte-inferior">
                         <div id="numeros">
-                            <button class = "teclado-botao" type="button" onclick="clicou('1')">1</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('2')">2</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('3')">3</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('4')">4</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('5')">5</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('6')">6</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('7')">7</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('8')">8</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('9')">9</button>
-                            <button class = "teclado-botao" type="button" onclick="clicou('0')">0</button>
+                            <button id = "1" class = "teclado-botao" type="button" onclick="clicou(1)">1</button>
+                            <button id = "2" class = "teclado-botao" type="button" onclick="clicou(2)">2</button>
+                            <button id = "3" class = "teclado-botao" type="button" onclick="clicou(3)">3</button>
+                            <button id = "4" class = "teclado-botao" type="button" onclick="clicou(4)">4</button>
+                            <button id = "5" class = "teclado-botao" type="button" onclick="clicou(5)">5</button>
+                            <button id = "6" class = "teclado-botao" type="button" onclick="clicou(6)">6</button>
+                            <button id = "7" class = "teclado-botao" type="button" onclick="clicou(7)">7</button>
+                            <button id = "8" class = "teclado-botao" type="button" onclick="clicou(8)">8</button>
+                            <button id = "9" class = "teclado-botao" type="button" onclick="clicou(9)">9</button>
+                            <button id = "0" class = "teclado-botao" type="button" onclick="clicou(0)">0</button>
                         </div>
 
                         <div id="operacoes">
-                            <button class = "teclado-botao" type="button" onclick="operacao(1)"> + </button>
-                            <button class = "teclado-botao" type="button" onclick="operacao(2)"> - </button>
-                            <button class = "teclado-botao" type="button" onclick="operacao(3)"> * </button>
-                            <button class = "teclado-botao" type="button" onclick="operacao(4)"> / </button>
+                            <button id = "ms" class = "teclado-botao" type="button" onclick="operacao('+')"> + </button>
+                            <button id = "ms1" class = "teclado-botao" type="button" onclick="operacao('-')"> - </button>
+                            <button id = "mp" class = "teclado-botao" type="button" onclick="operacao('*')"> * </button>
+                            <button id = "dv" class = "teclado-botao" type="button" onclick="operacao('/')"> / </button>
                         </div>
                     </div>
 
                     <div id="igual">
-                        <button class = "teclado-botao" type="button" onclick="clicou('1')"> = </button>
+                        <button id = "cal" class = "teclado-botao" type="button" onclick="calcular()"> = </button>
                     </div>
 
                 </div>
